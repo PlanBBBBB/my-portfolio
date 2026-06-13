@@ -80,7 +80,7 @@ export const education: EducationItem[] = [
     degree: '软件工程 · 本科',
     school: '广东财经大学',
     schoolUrl: 'https://www.gdufe.edu.cn/main.htm',
-    logo: '/gdufe.jpg',
+    logo: '/gdufe.webp',
     description: 'GPA 3.6（专业前 10%），主修课程：计算机网络、操作系统、数据库原理等。'
   }
 ];
@@ -93,7 +93,7 @@ export const workProjects: WorkProject[] = [
     title: 'Java 开发工程师',
     company: '广州金博信息科技有限公司',
     companyUrl: 'http://www.kingbos.com/',
-    logo: '/kingbos.jpg',
+    logo: '/kingbos.webp',
     brief: '金博软件成立于2007年，二十年来一直专注于医药行业信息化，作为国内领先的医药行业信息化服务商，现已成功地为国内近5万家医药企业提供了信息化管理解决方案。',
     tags: ['Java', 'Spring Boot', 'C#', 'SaaS', '医药电商', 'OMS', 'WMS', 'TMS', 'ERP', '全栈开发'],
     highlights: [
@@ -116,7 +116,7 @@ export const workProjects: WorkProject[] = [
     title: '初级开发工程师（实习+转正）',
     company: '凯通科技股份有限公司',
     companyUrl: 'http://www.gdcattsoft.com/index',
-    logo: '/catt.jpg',
+    logo: '/catt.webp',
     brief: '凯通科技是一家通信网络运维支撑及企业信息化咨询服务提供商，自主研发了物联网智能采集引擎、移动应用管理引擎、大数据引擎等产品，广泛应用于电信、移动、联通、电力、教育、政府、广电、水利等领域。',
     tags: ['Java', 'Spring Boot', 'Spring Cloud', 'WebSocket', 'Redis', 'PostgreSQL', 'MySQL', 'Elasticsearch', 'MaaS', 'RAG', 'JSONPath', 'XXL-JOB'],
     projects: [
@@ -161,7 +161,7 @@ export const workProjects: WorkProject[] = [
     title: 'Java 开发工程师（实习）',
     company: '广州优路加信息科技有限公司',
     companyUrl: 'http://www.u-road.com/',
-    logo: '/u-road.jpg',
+    logo: '/u-road.webp',
     brief: '优路加是一家交通路况信息服务平台，为高速公路、ETC、交警部门提供项目服务并运用其大数据进行衍生的咨询和资源对接服务。专注于智能交通研究，提供多维、多元、动态的交通路况信息服务；此外还提供各种基于云服务的智能车联网设备。',
     tags: ['Java', 'Spring Boot', '多租户', 'MQTT', 'Redis', 'AOP', '动态数据源'],
     highlights: [
