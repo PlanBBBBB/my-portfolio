@@ -198,7 +198,7 @@ export const skillCategories: SkillCategory[] = [
   {
     category: 'database',
     title: '数据库',
-    icon: '�',
+    icon: '🗄️',
     color: '#10b981',
     skills: ['MySQL 索引', '事务', '锁机制', 'MVCC', '读写分离', '分库分表', 'MongoDB', 'NoSQL']
   },
