@@ -14,7 +14,7 @@ function analyzeJobDescription(jd: string): MatchResult {
   // 收集简历中所有可能的关键词
   const allSkills: string[] = [];
   skillCategories.forEach((cat) => {
-    cat.skills.forEach((s) => allSkills.push(s.name));
+    cat.skills.forEach((s) => allSkills.push(s));
   });
 
   // 扩展关键词池 - 将工作项目标签与通用技能关键词也纳入
@@ -62,7 +62,7 @@ function analyzeJobDescription(jd: string): MatchResult {
   // 将技能和标签合并到关键词池中
   skillCategories.forEach((cat) => {
     cat.skills.forEach((s) => {
-      extendedKeywords.push({ term: s.name, category: cat.title });
+      extendedKeywords.push({ term: s, category: cat.title });
     });
   });
 

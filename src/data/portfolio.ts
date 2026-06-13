@@ -23,6 +23,7 @@ export interface WorkProject {
   title: string;
   company: string;
   companyUrl?: string; // 官网链接，有则点击公司名可跳转
+  logo?: string; // 公司 logo 图片路径
   brief: string;
   tags: string[];
   // 新版：多项目结构（横向并排展示）

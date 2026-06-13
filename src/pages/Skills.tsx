@@ -14,7 +14,7 @@ function Skills() {
         {/* 左侧分类 */}
         <div className="mindmap-side mindmap-left">
           {leftCategories.map((cat) => (
-            <div key={cat.category} className="mindmap-node mindmap-node-left" style={{ '--node-color': cat.color }}>
+            <div key={cat.category} className="mindmap-node mindmap-node-left" style={{ '--node-color': cat.color } as React.CSSProperties}>
               <div className="mindmap-leaves mindmap-leaves-right">
                 {cat.skills.map((skill, idx) => (
                   <span key={idx} className="mindmap-leaf">{skill}</span>
@@ -39,7 +39,7 @@ function Skills() {
         {/* 右侧分类 */}
         <div className="mindmap-side mindmap-right">
           {rightCategories.map((cat) => (
-            <div key={cat.category} className="mindmap-node mindmap-node-right" style={{ '--node-color': cat.color }}>
+            <div key={cat.category} className="mindmap-node mindmap-node-right" style={{ '--node-color': cat.color } as React.CSSProperties}>
               <div className="mindmap-card">
                 <span className="mindmap-icon">{cat.icon}</span>
                 <span className="mindmap-title">{cat.title}</span>
