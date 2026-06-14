@@ -258,6 +258,15 @@ export const exploreProjects: ExploreProject[] = [
     path: '/'
   },
   {
+    id: 'e3',
+    icon: '📝',
+    title: 'TraeBlog 个人博客系统',
+    date: '2025 · 06',
+    description: '一个现代化的个人博客系统，采用前后端分离架构，由 VibeCoding 全栈实现。支持文章发布、分类管理、标签管理、友链展示等功能，后台管理基于 JWT 身份认证，前端使用 Vue 3 + Element Plus 构建。',
+    tags: ['Spring Boot', 'Java 21', 'Vue 3', 'Element Plus'],
+    url: 'https://github.com/PlanBBBBB/TraeBlog'
+  },
+  {
     id: 'e2',
     icon: '🔆',
     title: 'CheeringLight 应援小程序',
@@ -265,14 +274,6 @@ export const exploreProjects: ExploreProject[] = [
     description: '用于应援场景的微信小程序，支持在手机屏幕上全屏显示自定义文字，预设多种配色方案，支持闪烁、跑马灯、呼吸灯等多种动态效果，自带历史记录与本地持久化存储。',
     tags: ['微信小程序', 'TypeScript', 'WXML'],
     url: 'https://github.com/PlanBBBBB/CheeringLight'
-  },
-  {
-    id: 'e3',
-    icon: '📊',
-    title: 'JVM 性能分析笔记库',
-    date: '2026 · 01',
-    description: '整理 JVM 调优实战案例，包括线程分析、内存泄漏定位、GC 日志解读等常见问题排查方法。',
-    tags: ['JVM', '性能优化', '技术笔记']
   },
   {
     id: 'e4',
