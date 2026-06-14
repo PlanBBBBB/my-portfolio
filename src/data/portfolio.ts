@@ -235,7 +235,7 @@ export const skillCategories: SkillCategory[] = [
     title: '前端',
     icon: '🎨',
     color: '#ec4899',
-    skills: ['Vue.js', 'HTML / CSS', 'JavaScript']
+    skills: ['Vue.js', 'HTML / CSS', 'JavaScript', 'Blazor']
   },
   {
     category: 'ai',
