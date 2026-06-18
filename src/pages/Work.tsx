@@ -96,7 +96,7 @@ function Work() {
             {selected.projects && selected.projects.length > 0 ? (
               <div className="work-section projects-section">
                 <div className="work-section-header">
-                  <span className="work-section-title">� 项目经历</span>
+                  <span className="work-section-title">📋 项目经历</span>
                   <span className="work-section-sub">
                     PROJECTS & TOOLS
                   </span>
