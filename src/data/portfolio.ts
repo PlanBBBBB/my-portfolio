@@ -5,6 +5,10 @@ export interface ProfileData {
   title: string;
   bio: string;
   email: string;
+  phone: string;
+  wechat: string;
+  city: string;
+  githubUrl?: string;
   resumeUrl: string;
 }
 
@@ -70,6 +74,10 @@ export const profile: ProfileData = {
   title: 'Java Backend Developer',
   bio: '2 年软件开发经验，专注于构建稳定、高效的系统，注重代码质量与长期价值，追求系统性能、可维护性与工程规范。',
   email: 'panchanghao0102@163.com',
+  phone: '139 2244 2730',
+  wechat: '139 2244 2730',
+  city: '广州',
+  githubUrl: 'https://github.com/PlanBBBBB',
   resumeUrl: '/潘常浩_后端开发_13922442730.pdf'
 };
 
