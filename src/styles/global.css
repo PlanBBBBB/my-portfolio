@@ -204,8 +204,17 @@ a {
   font-size: 16px;
   color: var(--color-text-light);
   line-height: 1.8;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   max-width: 560px;
+}
+
+.about-bio + .about-bio {
+  margin-top: 0;
+}
+
+.bio-highlight {
+  color: var(--color-accent, #111827);
+  font-weight: 600;
 }
 
 .about-actions {

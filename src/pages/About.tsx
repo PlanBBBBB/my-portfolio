@@ -1,6 +1,22 @@
 import { useState } from 'react';
 import { profile } from '../data/portfolio';
 
+function parseBold(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={idx} className="bio-highlight">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+}
+
+function renderBio(bioText: string) {
+  return bioText.split('\n\n').map((paragraph, idx) => (
+    <p key={idx} className="about-bio">{parseBold(paragraph)}</p>
+  ));
+}
+
 function About() {
   const [showContact, setShowContact] = useState(false);
   const [toastMsg, setToastMsg] = useState('');
@@ -49,7 +65,7 @@ function About() {
             Hi，我是 <span className="about-name">{profile.name}</span>
           </h1>
           <div className="about-title">{profile.title}</div>
-          <p className="about-bio">{profile.bio}</p>
+          {renderBio(profile.bio)}
 
           <div className="about-actions">
             <a

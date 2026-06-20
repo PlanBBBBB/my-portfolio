@@ -71,8 +71,8 @@ export interface NoteItem {
 // 个人信息
 export const profile: ProfileData = {
   name: '潘常浩',
-  title: 'Java Backend Developer',
-  bio: '2 年软件开发经验，专注于构建稳定、高效的系统，注重代码质量与长期价值，追求系统性能、可维护性与工程规范。',
+  title: 'Java 后端开发工程师',
+  bio: '**求职意向：Java 后端开发 · 广州** | **2 年经验**\n\n熟悉 Spring Boot / MySQL / Redis / 微服务，有**通信监控、医药电商 SaaS** 项目实战经验；持续关注 AI 应用开发（Spring AI / LangChain4j / RAG），相信 AI 能显著提升开发效率。专注于系统性能优化与工程规范，是一名注重长期价值的后端工程师。',
   email: 'panchanghao0102@163.com',
   phone: '139 2244 2730',
   wechat: '139 2244 2730',
